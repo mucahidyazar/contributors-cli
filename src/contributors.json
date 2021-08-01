@@ -1,0 +1,78 @@
+[
+  {
+    "name": "Mucahid Yazar",
+    "username": "mucahidyazar",
+    "github": "https://github.com/mucahidyazar",
+    "avatar": "https://avatars.githubusercontent.com/u/52811808?v=4",
+    "mail": "mucahidyazar@gmail.com",
+    "roles": [
+      "developer",
+      "designer",
+      "devops",
+      "volunteer",
+      "engineer",
+      "manager",
+      "core"
+    ],
+    "contributorTypes": [
+      "a11y",
+      "audio",
+      "blog",
+      "bug",
+      "business",
+      "code",
+      "content",
+      "data",
+      "design",
+      "doc",
+      "eventOrganizing",
+      "example",
+      "financial",
+      "fundingFinding",
+      "ideas",
+      "infra",
+      "maintenance",
+      "mentoring",
+      "platform",
+      "plugin",
+      "projectManagement",
+      "question",
+      "research",
+      "review",
+      "security",
+      "talk",
+      "test",
+      "tool",
+      "translation",
+      "tutorial",
+      "userTesting",
+      "video"
+    ],
+    "socials": [
+      {
+        "platform": "instagram",
+        "username": "mucahidyazar",
+        "url": "https://www.instagram.com/mucahidyazar/",
+        "symbol": "🌈"
+      },
+      {
+        "platform": "twitter",
+        "username": "mucahidyazar",
+        "url": "https://twitter.com/mucahidyazar",
+        "symbol": "🐦"
+      },
+      {
+        "platform": "linkedin",
+        "username": "mucahidyazar",
+        "url": "https://www.linkedin.com/in/mucahidyazar/",
+        "symbol": "🐦"
+      },
+      {
+        "platform": "web",
+        "username": "https://mucahid.dev",
+        "url": "https://mucahid.dev",
+        "symbol": "🐦"
+      }
+    ]
+  }
+]

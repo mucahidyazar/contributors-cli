@@ -2,7 +2,7 @@ const prompts = require("prompts");
 
 const questions = [
   {
-    type: "confirm",
+    type: "text",
     name: "dish",
     message: "Do you like pizza?",
   },
