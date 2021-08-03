@@ -69,4 +69,22 @@ const questions3 = [
   },
 ];
 
+const readmeTitlePrompt = [
+  {
+    type: "multiselect",
+    name: "abilties",
+    message: "Which options do you want in your README.md?",
+    choices: [
+      { title: "Installation", value: "installation" },
+      { title: "Documentation", value: "documentation" },
+      { title: "Faq", value: "faq" },
+      { title: "Links", value: "links" },
+      { title: "Contributing", value: "contributing" },
+      { title: "Contributors", value: "contributors" },
+      { title: "Contact", value: "Contact" },
+      { title: "Licence", value: "licence" },
+    ],
+  },
+];
+
 export { questions1, questions2, questions3 };

@@ -13,6 +13,11 @@ export const injectListBetweenTags = (newContent) => {
       `${tagToLookFor}END`
     );
 
+    console.log({
+      test1: previousContent.slice(0, endOfOpeningTagIndex + closingTag.length),
+      test2: previousContent.slice(startOfClosingTagIndex),
+    });
+
     return [
       previousContent.slice(0, endOfOpeningTagIndex + closingTag.length),
       "\n\n<!-- prettier-ignore-start -->",

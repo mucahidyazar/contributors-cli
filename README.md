@@ -96,7 +96,7 @@ Visit [Nx Cloud](https://nx.app/) to learn more.
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 
-💻 🎨 [mucahidyazar](https://github.com/mucahidyazar) - [📧](<mucahidyazar@gmail.com>) <mucahidyazar@gmail.com>
+ [💻](Developer) [🎨](Designer) [🤖](DevOps) [🌿](Volunteer) [📐](Engineer) [📈](Manager) [🥝](Core) [mucahidyazar](https://github.com/mucahidyazar) - [📧](mucahidyazar@gmail.com) mucahidyazar@gmail.com -  [🌈](https://www.instagram.com/mucahidyazar/) [🐦](https://twitter.com/mucahidyazar) [🐦](https://www.linkedin.com/in/mucahidyazar/) [🐦](https://mucahid.dev) 
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
