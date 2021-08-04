@@ -1,6 +1,6 @@
 {
   "name": "contributors-cli-test",
-  "version": "1.0.5-test.2",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "scripts": {
