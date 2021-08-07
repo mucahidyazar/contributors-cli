@@ -1,5 +1,5 @@
-export const injectListBetweenTags = (newContent, previousContent) => {
-  const tagToLookFor = `<!-- CONTRIBUTORS-GENERATOR-LIST:`;
+export const injectBetweenTags = (newContent, previousContent, tag) => {
+  const tagToLookFor = `<!-- ${tag}:`;
   const closingTag = "-->";
   const startOfOpeningTagIndex = previousContent.indexOf(
     `${tagToLookFor}START`
@@ -10,10 +10,8 @@ export const injectListBetweenTags = (newContent, previousContent) => {
   );
   const startOfClosingTagIndex = previousContent.indexOf(`${tagToLookFor}END`);
 
-  const hasHeader = previousContent.includes("## CONTRIBUTORS");
   const hasBefore = previousContent.includes(tagToLookFor);
   const content = [
-    !hasHeader ? "## CONTRIBUTORS\n\n" : "",
     hasBefore
       ? previousContent.slice(0, endOfOpeningTagIndex + closingTag.length)
       : tagToLookFor + "START " + closingTag,

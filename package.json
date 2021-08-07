@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "babel-node src/test.js",
     "dev": "babel-node src/index.js",
     "dev:ts": "babel-node --extensions '.ts' src/index.ts"
   },

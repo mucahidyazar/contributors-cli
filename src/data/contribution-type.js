@@ -1,135 +1,132 @@
+import { ContributionType } from "../enums";
+
 export const contributionType = {
-  a11y: {
+  [ContributionType.ACCESSIBILITY]: {
     symbol: "️️️️♿️",
-    description: "Accessibility",
+    name: "Accessibility",
   },
-  audio: {
+  [ContributionType.AUDIO]: {
     symbol: "🔊",
-    description: "Audio",
+    name: "Audio",
   },
-  blog: {
+  [ContributionType.BLOG]: {
     symbol: "📝",
-    description: "Blogposts",
+    name: "Blogposts",
   },
-  bug: {
+  [ContributionType.BUG]: {
     symbol: "🐛",
-    description: "Bug reports",
-    // link: repo.getLinkToIssues(repoType),
+    name: "Bug reports",
   },
-  business: {
+  [ContributionType.BUSINESS]: {
     symbol: "💼",
-    description: "Business development",
+    name: "Business development",
   },
-  code: {
+  [ContributionType.CODE]: {
     symbol: "💻",
-    description: "Code",
-    // link: repo.getLinkToCommits(repoType),
+    name: "Code",
   },
-  content: {
+  [ContributionType.CONTENT]: {
     symbol: "🖋",
-    description: "Content",
+    name: "Content",
   },
-  data: {
+  [ContributionType.DATA]: {
     symbol: "🔣",
-    description: "Data",
+    name: "Data",
   },
-  design: {
+  [ContributionType.DESIGN]: {
     symbol: "🎨",
-    description: "Design",
+    name: "Design",
   },
-  doc: {
+  [ContributionType.DOC]: {
     symbol: "📖",
-    description: "Documentation",
-    // link: repo.getLinkToCommits(repoType),
+    name: "Documentation",
   },
-  eventOrganizing: {
+  [ContributionType.EVENT_ORGANIZING]: {
     symbol: "📋",
-    description: "Event Organizing",
+    name: "Event Organizing",
   },
-  example: {
+  [ContributionType.EXAMPLE]: {
     symbol: "💡",
-    description: "Examples",
+    name: "Examples",
   },
-  financial: {
+  [ContributionType.FINANCIAL]: {
     symbol: "💵",
-    description: "Financial",
+    name: "Financial",
   },
-  fundingFinding: {
+  [ContributionType.FUNDING_FINDING]: {
     symbol: "🔍",
-    description: "Funding Finding",
+    name: "Funding Finding",
   },
-  ideas: {
+  [ContributionType.IDEAS]: {
     symbol: "🤔",
-    description: "Ideas, Planning, & Feedback",
+    name: "Ideas, Planning, & Feedback",
   },
-  infra: {
+  [ContributionType.INFRA]: {
     symbol: "🚇",
-    description: "Infrastructure (Hosting, Build-Tools, etc)",
+    name: "Infrastructure (Hosting, Build-Tools, etc)",
   },
-  maintenance: {
+  [ContributionType.MAINTANCE]: {
     symbol: "🚧",
-    description: "Maintenance",
+    name: "Maintenance",
   },
-  mentoring: {
+  [ContributionType.MENTORING]: {
     symbol: "🧑‍🏫",
-    description: "Mentoring",
+    name: "Mentoring",
   },
-  platform: {
+  [ContributionType.PLATFORM]: {
     symbol: "📦",
-    description: "Packaging/porting to new platform",
+    name: "Packaging/porting to new platform",
   },
-  plugin: {
+  [ContributionType.PLUGIN]: {
     symbol: "🔌",
-    description: "Plugin/utility libraries",
+    name: "Plugin/utility libraries",
   },
-  projectManagement: {
+  [ContributionType.PROJECT_MANAGEMENT]: {
     symbol: "📆",
-    description: "Project Management",
+    name: "Project Management",
   },
-  question: {
+  [ContributionType.QUESTION]: {
     symbol: "💬",
-    description: "Answering Questions",
+    name: "Answering Questions",
   },
-  research: {
+  [ContributionType.RESEARCH]: {
     symbol: "🔬",
-    description: "Research",
+    name: "Research",
   },
-  review: {
+  [ContributionType.REVIEW]: {
     symbol: "👀",
-    description: "Reviewed Pull Requests",
-    // link: repo.getLinkToReviews(repoType),
+    name: "Reviewed Pull Requests",
   },
-  security: {
+  [ContributionType.SECURITY]: {
     symbol: "🛡️",
-    description: "Security",
+    name: "Security",
   },
-  talk: {
+  [ContributionType.TALK]: {
     symbol: "📢",
-    description: "Talks",
+    name: "Talks",
   },
-  test: {
+  [ContributionType.TEST]: {
     symbol: "⚠️",
-    description: "Tests",
-    // link: repo.getLinkToCommits(repoType),
+    name: "Tests",
   },
-  tool: {
+  [ContributionType.TOOL]: {
     symbol: "🔧",
-    description: "Tools",
+    name: "Tools",
   },
-  translation: {
+  [ContributionType.TRANSLATION]: {
     symbol: "🌍",
-    description: "Translation",
+    name: "Translation",
   },
-  tutorial: {
+  [ContributionType.TUTORIAL]: {
     symbol: "✅",
-    description: "Tutorials",
+    name: "Tutorials",
   },
-  userTesting: {
+  [ContributionType.USER_TESTING]: {
     symbol: "📓",
-    description: "User Testing",
+    name: "User Testing",
   },
-  video: {
+  [ContributionType.VIDEO]: {
     symbol: "📹",
-    description: "Videos",
+    name: "Videos",
   },
 };

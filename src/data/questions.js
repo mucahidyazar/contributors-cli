@@ -1,3 +1,6 @@
+import { contributionType as contributionTypes } from "./contribution-type";
+import { role as roles } from "./role";
+
 const questions1 = [
   {
     type: "select",
@@ -30,22 +33,55 @@ const questions2 = [
   },
   {
     type: "text",
+    name: "username",
+    message: "What is the username of the contributor's github? (Ex: test123)",
+  },
+  {
+    type: "text",
     name: "email",
-    message:
-      "What is the email of the contributor? (Ex: mucahidyazar@gmail.com)",
+    message: "What is the email of the contributor? (Ex: test@example.com)",
+  },
+  {
+    type: "text",
+    name: "website",
+    message: "What is the website of the contributor? (Ex: mucahid.dev)",
+  },
+  {
+    type: "confirm",
+    name: "coreMember",
+    message: "Is he/she a core member?",
   },
   {
     type: "multiselect",
-    name: "abilties",
-    message: "What is/are his/her job or abilities?",
+    name: "roles",
+    message: "What is/are his/her job or role?",
+    choices: () =>
+      Object.entries(roles).map(([key, role]) => ({
+        id: key,
+        title: role.name,
+        value: key,
+        emoji: role.symbol,
+      })),
+  },
+  {
+    type: "multiselect",
+    name: "contributionTypes",
+    message: "What type contribution has he had?",
+    choices: () =>
+      Object.entries(contributionTypes).map(([key, role]) => ({
+        id: key,
+        title: role.name,
+        value: key,
+        emoji: role.symbol,
+      })),
+  },
+  {
+    type: "select",
+    name: "file",
+    message: "Which file do you want to use?",
     choices: [
-      { title: "Developer", value: "developer", emoji: "💻" },
-      { title: "Designer", value: "designer", emoji: "🎨" },
-      { title: "Devops", value: "devops", emoji: "🤖" },
-      { title: "Volunteer", value: "volunteer", emoji: "🌿" },
-      { title: "Engineer", value: "engineer", emoji: "📐" },
-      { title: "Manager", value: "manager", emoji: "📈" },
-      { title: "Core Contributor", value: "core-contributor", emoji: "🥝" },
+      { title: "Readme.md", value: "readme" },
+      { title: "Contributors.md", value: "contributors" },
     ],
   },
 ];
@@ -66,6 +102,11 @@ const questions3 = [
       },
     ],
     initial: 1,
+  },
+  {
+    type: "confirm",
+    name: "isSplitted",
+    message: "Do you want to split as Core Team and All Contributors?",
   },
 ];
 
