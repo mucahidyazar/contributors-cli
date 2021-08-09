@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Mucahid Yazar",
+    "username": "mucahidyazar",
+    "website": "https://mucahid.dev",
+    "github": "https://github.com/mucahidyazar",
+    "avatar": "https://avatars.githubusercontent.com/u/52811808?v=4",
+    "email": "mucahidyazar@gmail.com",
+    "coreMember": true,
+    "roles": [
+      "developer",
+      "designer",
+      "devops",
+      "volunteer",
+      "engineer",
+      "manager"
+    ],
+    "contributorTypes": [
+      "a11y",
+      "audio",
+      "blog",
+      "bug",
+      "business",
+      "code",
+      "content",
+      "data",
+      "design",
+      "doc",
+      "eventOrganizing",
+      "example",
+      "financial",
+      "fundingFinding",
+      "ideas",
+      "infra",
+      "maintenance",
+      "mentoring",
+      "platform",
+      "plugin",
+      "projectManagement",
+      "question",
+      "research",
+      "review",
+      "security",
+      "talk",
+      "test",
+      "tool",
+      "translation",
+      "tutorial",
+      "userTesting",
+      "video"
+    ],
+    "socials": [
+      {
+        "platform": "instagram",
+        "username": "mucahidyazar",
+        "url": "https://www.instagram.com/mucahidyazar/",
+        "symbol": "🔗"
+      },
+      {
+        "platform": "twitter",
+        "username": "mucahidyazar",
+        "url": "https://twitter.com/mucahidyazar",
+        "symbol": "🔗"
+      },
+      {
+        "platform": "linkedin",
+        "username": "mucahidyazar",
+        "url": "https://www.linkedin.com/in/mucahidyazar/",
+        "symbol": "🔗"
+      }
+    ]
+  },
+  {
+    "name": "Mustafa Ezer",
+    "username": "mustafaezer",
+    "website": "https://mustafaezer.dev",
+    "github": "https://github.com/mustafaezer",
+    "avatar": "https://avatars.githubusercontent.com/u/52812808?v=4",
+    "email": "mustafaezer@gmail.com",
+    "coreMember": false,
+    "roles": ["developer", "designer"],
+    "contributorTypes": ["a11y", "audio"],
+    "socials": [
+      {
+        "platform": "instagram",
+        "username": "mustafaezer",
+        "url": "https://www.instagram.com/mustafaezer/",
+        "symbol": "🔗"
+      }
+    ]
+  }
+]
