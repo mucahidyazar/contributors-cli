@@ -7,7 +7,7 @@ export const getContributorListLine = (contributor: IContributor): string => {
   let socials = '';
 
   contributor?.roles?.forEach((roleTitle) => {
-    roles += ` [${role[roleTitle].symbol}](${role[roleTitle].name})`;
+    roles += ` ${role[roleTitle].symbol}`;
   });
   contributor?.socials?.forEach((social) => {
     socials += ` [${social.symbol}](${social.url})`;
@@ -15,7 +15,7 @@ export const getContributorListLine = (contributor: IContributor): string => {
 
   const line = `\n${roles} [${
     contributor.username
-  }](${`https://www.github.com/${contributor.username}`}) - [📧](${
+  }](${`https://www.github.com/${contributor.username}`}) - [📧](mailto:${
     contributor.email
   })${socials ? ` - ${socials}` : socials}\n`;
 

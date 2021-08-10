@@ -8,9 +8,17 @@
 
 ### Core Members
 
- [💻](Developer) [mucahidyazar](https://www.github.com/mucahidyazar) - [📧](<mucahidyazar@gmail.com>)
+ 💻 🎨 🤖 🌿 📐 📈 [mucahidyazar](https://www.github.com/mucahidyazar) - [📧](mailto:mucahidyazar@gmail.com) -  [🔗](https://www.instagram.com/mucahidyazar/) [🔗](https://twitter.com/mucahidyazar) [🔗](https://www.linkedin.com/in/mucahidyazar/)
 
 <!-- CONTRIBUTORS-GENERATOR-CORE-MEMBERS:END -->
+
+<!-- CONTRIBUTORS-GENERATOR-ALL-MEMBERS:START - Do not remove or modify this section -->
+
+### All Members
+
+ 💻 🎨 [mustafaezer](https://www.github.com/mustafaezer) - [📧](mailto:mustafaezer@gmail.com) -  [🔗](https://www.instagram.com/mustafaezer/)
+
+<!-- CONTRIBUTORS-GENERATOR-ALL-MEMBERS:END -->
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 
